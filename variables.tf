@@ -7,7 +7,9 @@ variable "vpc_id" {
 }
 
 variable "db_name" {
+  default = "test-db"
 }
 
 variable "project" {
+  default = "db-service-test"
 }
